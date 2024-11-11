@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="icon" href="mylabel.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="wrapper">
+            <form class="form">
+                <h1 class="project__header">
+                    Calorie Calculator
+                </h1>
+
+                <div class="gender">
+                        <input type="radio" name="gender" id="gender" value="Male" required>
+                        <label for="gender" class="radio">Male</label>
+    
+                        <input type="radio" name="gender" id="gender" value="Female" required>
+                        <label for="gender" class="radio">Female</label>
+                </div>
+
+                <p>
+                    <label for="age">Age :</label>
+                    <input type="number" name="age" id="age" required>
+                </p>
+                
+                <p>
+                    <label for="height">Height (cm) :</label>
+                    <input type="number" name="height" id="height" required>
+                </p>
+                
+                <p>
+                    <label for="weight">Weight (kg) :</label>
+                    <input type="number" name="weight" id="weight" required>
+                </p>
+                
+                <p>
+                    <label for="activity">Activity Level :</label>
+                    <select name="activity" id="activity" required>
+                        <option value="1.2" class="select__option">Minimal (sedentary work)</option>
+                        <option value="1.375" class="select__option">Light (1-2 short workouts)</option>
+                        <option value="1.55" class="select__option" selected>Medium (3-4 workouts)</option>
+                        <option value="1.725" class="select__option">High (5 workouts)</option>
+                        <option value="1.9" class="select__option">Extra (permanently)</option>
+                    </select>
+                </p>
+                
+                <div class="radios">
+                    <p>
+                        <input type="radio" name="formula" id="formula" value="Mifflin-St Jeor Equation" checked required>
+                        <label for="formula" class="radio">Mifflin-St Jeor Equation</label>
+                    </p>
+    
+                    <p>
+                        <input type="radio" name="formula" id="formula" value="Harris-Benedict Equation" required>
+                        <label for="formula" class="radio">Harris-Benedict Equation</label>
+                    </p>
+                </div>
+
+                <div class="btns__wrapper">
+                    <button class="btn btn-calculate">
+                        Calculate
+                    </button>
+
+                    <button class="btn btn-clear">
+                        Clear
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

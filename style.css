@@ -1,0 +1,71 @@
+@import 'https://unpkg.com/@a1rth/css-normalize@1.1.3/index.css';
+
+:root {
+  --text-color: #fff;
+  --card-border-radius: 8px;
+  --btn-border-radius: 4px;
+  --input-height: 30px;
+  --btn-height: 40px;
+  --transition-duration: .3s;
+}
+
+body {
+  background: linear-gradient(313deg, rgb(78, 16, 16) 0%, rgb(25, 25, 25) 52%);
+  color: var(--text-color);
+  padding: 30px 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  padding: 20px;
+  border-radius: var(--card-border-radius);
+  width: 480px;
+}
+
+label:not(.radio) {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #9acd32;
+}
+
+input:not(#formula, #gender),
+select {
+  height: var(--input-height);
+}
+
+.btns__wrapper {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+
+.btn {
+  border-radius: var(--btn-border-radius);
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-calculate {
+  background-color: #4c7b25;
+}
+
+.btn-clear {
+  background-color: #ababab;
+}/*# sourceMappingURL=style.css.map */
