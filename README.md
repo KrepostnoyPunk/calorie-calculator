@@ -38,6 +38,6 @@
 
 Проект завершен.
 
-![[Pasted image 20241112220537.png]]
+(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_1.png?raw=true)
 
-![[Pasted image 20241112220605.png]]
+(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_2.png?raw=true)
