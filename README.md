@@ -1,3 +1,7 @@
+(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_1.png?raw=true)
+
+(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_2.png?raw=true)
+
 *Интро :*
 - Данный проект представляет собой простую версию калькулятора калорий для расчета количества потребляемых каллорий в течение дня для достижения различных целей, будь то набор, поддержание или потеря веса.
 - ЗЫ: Не особо упарывался в дизайн и адаптив, хотелось больше поиграться с логикой на стороне JS.
@@ -37,7 +41,3 @@
 - расчеты в других системах измерения
 
 Проект завершен.
-
-(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_1.png?raw=true)
-
-(https://github.com/KrepostnoyPunk/calorie-calculator/blob/main/previewImages/pr_2.png?raw=true)
