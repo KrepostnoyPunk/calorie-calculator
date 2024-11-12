@@ -9,7 +9,7 @@
 </head>
 <body>
         <div class="wrapper">
-            <form class="form">
+            <form class="form" id="form">
                 <h1 class="project__header">
                     Calorie Calculator
                 </h1>
@@ -42,7 +42,7 @@
                     <select name="activity" id="activity" required>
                         <option value="1.2" class="select__option">Minimal (sedentary work)</option>
                         <option value="1.375" class="select__option">Light (1-2 short workouts)</option>
-                        <option value="1.55" class="select__option" selected>Medium (3-4 workouts)</option>
+                        <option value="1.55" class="select__option">Medium (3-4 workouts)</option>
                         <option value="1.725" class="select__option">High (5 workouts)</option>
                         <option value="1.9" class="select__option">Extra (permanently)</option>
                     </select>
@@ -61,15 +61,21 @@
                 </div>
 
                 <div class="btns__wrapper">
-                    <button class="btn btn-calculate">
+                    <button type="submit" class="btn btn-calculate">
                         Calculate
                     </button>
 
-                    <button class="btn btn-clear">
+                    <button type="button" class="btn btn-clear">
                         Clear
                     </button>
                 </div>
             </form>
+
+            <div class="result"></div>
+            <button type="button" class="btn btn-back">
+                Back
+            </button>
+
         </div>
 
     <script src="script.js"></script>
