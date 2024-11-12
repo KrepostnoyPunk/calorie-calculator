@@ -13,7 +13,6 @@ body {
   background: linear-gradient(313deg, rgb(78, 16, 16) 0%, rgb(25, 25, 25) 52%);
   color: var(--text-color);
   padding: 30px 0px;
-  font-size: 17px;
 }
 
 .wrapper {
@@ -46,8 +45,7 @@ select {
 
 .btns__wrapper {
   display: flex;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+  column-gap: 20px;
   align-items: center;
 }
 
